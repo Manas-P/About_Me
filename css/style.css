@@ -26,6 +26,7 @@ body {
   background: #0099ff;
   opacity: 1;
   transition: all 0.5s ease;
+  overflow: hidden;
 }
 
 .preloader h1 {
@@ -137,7 +138,7 @@ nav {
   background: #d6f5ff;
   height: 87vh;
   width: 100vw;
-  /*position: relative;*/
+  position: relative;
 }
 
 .heroContainer .sea {
@@ -147,7 +148,8 @@ nav {
   left: 0;
   right: 0;
   width: 100vw;
-  background-repeat: repeat;
+  height: auto;
+  background-repeat: repeat-x;
   background-position: 0 0;
 }
 
@@ -155,7 +157,7 @@ nav {
   background-image: url("../images/sea1.png");
   height: 4.479166666666667vw;
   animation: seaMove 4s linear infinite;
-  background-size: 100vw 4.479166666666667vw;
+  background-size: cover;
   z-index: 5;
 }
 
@@ -163,7 +165,7 @@ nav {
   background-image: url("../images/sea2.png");
   height: 8.59375vw;
   animation: seaMove 7s linear infinite;
-  background-size: 100vw 8.59375vw;
+  background-size: cover;
   z-index: 4;
 }
 
@@ -171,7 +173,7 @@ nav {
   background-image: url("../images/sea3.png");
   height: 9.791666666666666vw;
   animation: seaMove 9s linear infinite;
-  background-size: 100vw 9.791666666666666vw;
+  background-size: cover;
   z-index: 2;
 }
 
@@ -179,7 +181,7 @@ nav {
   background-image: url("../images/sea4.png");
   height: 10.104166666666666vw;
   animation: seaMove 11s linear infinite;
-  background-size: 100vw 10.104166666666666vw;
+  background-size: cover;
   z-index: 1;
 }
 
@@ -228,7 +230,7 @@ nav {
   width: 19.114583333333332vw;
   height: 11.25vw;
   right: -19%;
-  top: 10.416666666666666vw;
+  top: 4.416666666666666vw;
   z-index: 2;
   animation: cloud1 ease-in-out 40s infinite 5s;
 }

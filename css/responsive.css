@@ -1,0 +1,305 @@
+@media screen and (max-width: 1650px) {
+  .container4 .cards {
+    margin-top: 2.6041666666666665vw;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container4 .cards {
+    margin-top: 5.208333333333333vw;
+  }
+
+  .top {
+    height: 80px;
+    width: 80px;
+    font-size: 105px;
+  }
+
+  .logoContainer img {
+    width: 15vw;
+  }
+
+  .navLink {
+    font-size: 2.3vw;
+  }
+
+  .heroContainer .sea1 {
+    height: 6vw;
+    background-size: 100vw 6vw;
+  }
+
+  .heroContainer .sea2 {
+    height: 9vw;
+    background-size: 100vw 9vw;
+  }
+
+  .heroContainer .sea3 {
+    height: 11vw;
+    background-size: 100vw 11vw;
+  }
+
+  .heroContainer .sea4 {
+    height: 12vw;
+    background-size: 100vw 12vw;
+  }
+
+  .heroContainer .boat img {
+    width: 38.9448vw;
+    height: 27vw;
+  }
+
+  .heroContainer .cloud1 img {
+    width: 18.0356vw;
+    height: 10vw;
+    margin-top: 23vw;
+    right: -16%;
+  }
+
+  .heroContainer .cloud2 img {
+    width: 20.3888vw;
+    height: 12vw;
+    right: -25%;
+    top: 4.416666666666666vw;
+  }
+
+  .heroContainer .sun img {
+    height: 20vw;
+  }
+
+  .container1 h1 {
+    font-size: 3.6vw;
+    top: 7vw;
+  }
+
+  .container1 .hello img {
+    height: 39vw;
+  }
+
+  .fish img:nth-child(1) {
+    height: 4.5vw;
+    margin-top: 7.708333333333333vw;
+    left: -8%;
+  }
+
+  .fish img:nth-child(2) {
+    height: 4.5vw;
+    margin-top: 25vw;
+    left: -8%;
+  }
+
+  .fish img:nth-child(3) {
+    height: 4.5vw;
+    margin-top: 40vw;
+    right: -8%;
+  }
+
+  .fish img:nth-child(4) {
+    height: 4.5vw;
+    margin-top: 19vw;
+    right: -8%;
+  }
+
+  .fish img:nth-child(5) {
+    height: 4.5vw;
+    margin-top: 7.5vw;
+    right: -8%;
+  }
+
+  .fish img:nth-child(6) {
+    height: 4.5vw;
+    margin-top: 45vw;
+    left: -8%;
+  }
+
+  @keyframes fishL {
+    0% {
+      transform: translate(0, 0) rotateY(180deg);
+    }
+    50% {
+      transform: translate(-108vw, 10.416666666666666vw) rotateY(180deg);
+    }
+    51% {
+      transform: translate(-108vw, 10.416666666666666vw) rotateY(0deg);
+    }
+    100% {
+      transform: translate(0, 0) rotateY(0deg);
+    }
+  }
+
+  @keyframes fishR {
+    0% {
+      transform: translate(0, 0) rotateY(180deg);
+    }
+    50% {
+      transform: translate(108vw, 5.208333333333333vw) rotateY(180deg);
+    }
+    51% {
+      transform: translate(108vw, 5.208333333333333vw) rotateY(0deg);
+    }
+    100% {
+      transform: translate(0, 0) rotateY(0deg);
+    }
+  }
+
+  .bubble img:nth-child(1) {
+    margin-top: 7vw;
+    height: 8.5vw;
+  }
+
+  .bubble img:nth-child(2) {
+    margin-top: 45%;
+    height: 13vw;
+  }
+
+  .bubble img:nth-child(3) {
+    margin-top: 25%;
+    height: 7vw;
+  }
+
+  .container2 .content1 h1 {
+    font-size: 6vw;
+  }
+
+  .container2 .content1 p {
+    line-height: 3.5vw;
+    font-size: 2.3vw;
+    padding: 1.0416666666666667vw 4.208333333333333vw 0px 4.208333333333333vw;
+  }
+
+  .container2 .content2 img {
+    height: 30vw;
+  }
+
+  .container2 .content2 h1 {
+    font-size: 4vw;
+    left: 69%;
+  }
+
+  .container3 h1 {
+    font-size: 5vw;
+    top: 5vw;
+  }
+
+  .container3 .skills {
+    padding: 13vw 0px 0vw 0px;
+  }
+
+  .container3 .learning {
+    padding-top: 13vw;
+  }
+
+  .container4 h1 {
+    font-size: 5vw;
+    top: 10vw;
+  }
+
+  .container4 .faceContent img {
+    height: 16vw;
+    width: auto;
+  }
+
+  .cards .card .face {
+    width: 25vw;
+    height: 16vw;
+  }
+
+  .cards .card .face.face1 {
+    height: 17vw;
+    width: 25vw;
+    transform: translateY(8vw);
+  }
+
+  .cards .card .face.face2 {
+    transform: translateY(-8vw);
+  }
+
+  .cards .card .face.face2 .faceContent p {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+  }
+
+  .cards .card .face.face2 .faceContent a {
+    margin: 1vw 0 0;
+    font-size: 1.5vw;
+    border: 0.09vw solid #000;
+  }
+
+  .container5 .content1 h1 {
+    font-size: 4.5vw;
+  }
+
+  .container5 .content1 p {
+    line-height: 3.5vw;
+    font-size: 2vw;
+    padding: 1.0416666666666667vw 4.208333333333333vw 0px 4.208333333333333vw;
+  }
+
+  .container5 .content2 img {
+    height: 30vw;
+  }
+
+  .container5 .content2 h1 {
+    font-size: 4vw;
+    left: 67.5%;
+  }
+
+  .container5 .content1 a {
+    padding: 0.5645833333333333vw 1.2416666666666667vw;
+    color: #fff;
+    font-size: 1.5vw;
+  }
+
+  .container6 h1 {
+    font-size: 5vw;
+  }
+
+  .container6 .videos iframe {
+    width: 30.2033vw;
+    height: 17vw;
+  }
+
+  .container7 h1 {
+    font-size: 5vw;
+    padding-top: 3vw;
+  }
+
+  .score h2 {
+    font-size: 2vw;
+  }
+
+  .score p {
+    padding: 0.82vw;
+    font-size: 1.7vw;
+  }
+
+  .intro h1 {
+    font-size: 2vw;
+    padding: 0 20.833333333333332vw 0 20.833333333333332vw;
+    line-height: 3vw;
+  }
+
+  .intro button,
+  .match button,
+  .result button {
+    width: 9vw;
+    height: 3.5vw;
+    font-size: 1.7vw;
+    border-radius: 2vw;
+  }
+
+  .hands img {
+    height: 8.5vw;
+  }
+
+  .container8 .plants img {
+    height: 12vw;
+  }
+
+  .plant {
+    padding: 0px 1.5vw 0px 1.5vw;
+  }
+
+  .footer h3 {
+    font-size: 1.6vw;
+  }
+}
