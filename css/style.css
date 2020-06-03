@@ -93,7 +93,7 @@ header {
   /*position: fixed;*/
   position: relative;
   display: flex;
-  width: 100vw;
+  width: 100%;
   top: 0;
   height: 13vh;
   align-items: center;
@@ -103,7 +103,6 @@ header {
 }
 
 .logoContainer img {
-  height: 100%;
   width: 13.020833333333334vw;
   margin-left: 3.90625vw;
 }
@@ -137,7 +136,7 @@ nav {
 .heroContainer {
   background: #d6f5ff;
   height: 87vh;
-  width: 200vw;
+  width: 100vw;
   /*position: relative;*/
 }
 
