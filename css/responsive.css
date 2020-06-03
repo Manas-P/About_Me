@@ -5,10 +5,6 @@
 }
 
 @media screen and (max-width: 1500px) {
-  .container4 .cards {
-    margin-top: 5.208333333333333vw;
-  }
-
   .top {
     height: 80px;
     width: 80px;
@@ -193,6 +189,10 @@
     top: 10vw;
   }
 
+  .container4 .cards {
+    margin-top: 5.208333333333333vw;
+  }
+
   .container4 .faceContent img {
     height: 16vw;
     width: auto;
@@ -246,6 +246,7 @@
   .container5 .content1 a {
     padding: 0.5645833333333333vw 1.2416666666666667vw;
     color: #fff;
+    border-radius: 3vw;
     font-size: 1.5vw;
   }
 
@@ -301,5 +302,252 @@
 
   .footer h3 {
     font-size: 1.6vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .top {
+    height: 80px;
+    width: 80px;
+    font-size: 105px;
+  }
+
+  .logoContainer img {
+    width: 17vw;
+  }
+
+  .navLink {
+    font-size: 2.7vw;
+  }
+
+  .heroContainer .sea1 {
+    height: 8vw;
+    background-size: 100vw 8vw;
+  }
+
+  .heroContainer .sea2 {
+    height: 11vw;
+    background-size: 100vw 11vw;
+  }
+
+  .heroContainer .sea3 {
+    height: 13vw;
+    background-size: 100vw 13vw;
+  }
+
+  .heroContainer .sea4 {
+    height: 14vw;
+    background-size: 100vw 14vw;
+  }
+
+  .heroContainer .boat img {
+    width: 50.484vw;
+    height: 35vw;
+  }
+
+  .heroContainer .cloud1 img {
+    width: 21.6427vw;
+    height: 12vw;
+    margin-top: 27vw;
+    right: -16%;
+  }
+
+  .heroContainer .cloud2 img {
+    width: 23.7869vw;
+    height: 14vw;
+    right: -25%;
+    top: 5vw;
+  }
+
+  .heroContainer .sun img {
+    height: 24vw;
+  }
+
+  .container1 h1 {
+    font-size: 4.3vw;
+    top: 9vw;
+  }
+
+  .container1 .hello img {
+    height: 47vw;
+  }
+
+  .fish img:nth-child(1) {
+    height: 5vw;
+    margin-top: 10vw;
+    left: -8%;
+  }
+
+  .fish img:nth-child(2) {
+    height: 5vw;
+    margin-top: 35vw;
+    left: -8%;
+  }
+
+  .fish img:nth-child(3) {
+    height: 5vw;
+    margin-top: 45vw;
+    right: -8%;
+  }
+
+  .fish img:nth-child(4) {
+    height: 5vw;
+    margin-top: 30vw;
+    right: -8%;
+  }
+
+  .fish img:nth-child(5) {
+    height: 5vw;
+    margin-top: 15vw;
+    right: -8%;
+  }
+
+  .fish img:nth-child(6) {
+    height: 5vw;
+    margin-top: 60vw;
+    left: -8%;
+  }
+
+  .bubble img:nth-child(1) {
+    margin-top: 10vw;
+    height: 9.5vw;
+  }
+
+  .bubble img:nth-child(2) {
+    margin-top: 58%;
+    height: 16vw;
+  }
+
+  .bubble img:nth-child(3) {
+    margin-top: 30%;
+    height: 9vw;
+  }
+
+  .container2 .content1 h1 {
+    font-size: 7vw;
+  }
+
+  .container2 .content1 p {
+    line-height: 4vw;
+    font-size: 2.7vw;
+    padding: 1.0416666666666667vw 3.5vw 0px 3.5vw;
+  }
+
+  .container2 .content2 img {
+    height: 35vw;
+  }
+
+  .container2 .content2 h1 {
+    font-size: 4.5vw;
+    left: 68%;
+  }
+
+  .container3 h1 {
+    font-size: 6vw;
+    top: 7vw;
+  }
+
+  .container3 .skills {
+    padding: 16vw 0px 0vw 0px;
+  }
+
+  .container3 .learning {
+    padding-top: 16vw;
+  }
+
+  .container4 h1 {
+    font-size: 6vw;
+    top: 10vw;
+  }
+
+  .container4 .cards {
+    margin-top: 7vw;
+  }
+
+  .container5 .content1 h1 {
+    font-size: 5vw;
+  }
+
+  .container5 .content1 p {
+    line-height: 3.7vw;
+    font-size: 2.5vw;
+    padding: 1.0416666666666667vw 3vw 0px 3vw;
+  }
+
+  .container5 .content2 img {
+    height: 35vw;
+  }
+
+  .container5 .content2 h1 {
+    font-size: 4.5vw;
+    left: 66.5%;
+  }
+
+  .container5 .content1 a {
+    padding: 1vw 1.8416666666666667vw;
+    color: #fff;
+    border: 0.2vw solid #fff;
+    border-radius: 3vw;
+    font-size: 1.8vw;
+  }
+
+  .container6 h1 {
+    font-size: 5.5vw;
+  }
+
+  .container6 .videos {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3vw;
+  }
+
+  .container6 .videos iframe {
+    width: 37.3099vw;
+    height: 21vw;
+  }
+
+  .container7 h1 {
+    font-size: 5.8vw;
+    padding-top: 4vw;
+  }
+
+  .score h2 {
+    font-size: 2.6vw;
+  }
+
+  .score p {
+    padding: 1vw;
+    font-size: 2vw;
+  }
+
+  .intro h1 {
+    font-size: 2.5vw;
+    padding: 0 19vw 0 19vw;
+    line-height: 3.5vw;
+  }
+
+  .intro button,
+  .match button,
+  .result button {
+    width: 10vw;
+    height: 4.3vw;
+    border: 0.2vw solid #fff;
+    font-size: 2.1vw;
+    border-radius: 2vw;
+  }
+
+  .hands img {
+    height: 10vw;
+  }
+
+  .container8 .plants img {
+    height: 15vw;
+  }
+
+  .plant {
+    padding: 0px 1.8vw 0px 1.8vw;
+  }
+
+  .footer h3 {
+    font-size: 1.9vw;
   }
 }
