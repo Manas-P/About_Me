@@ -6,9 +6,9 @@
 
 @media screen and (max-width: 1500px) {
   .top {
-    height: 80px;
-    width: 80px;
-    font-size: 105px;
+    height: 5vw;
+    width: 5vw;
+    font-size: 6vw;
   }
 
   .logoContainer img {
@@ -307,9 +307,9 @@
 
 @media screen and (max-width: 1200px) {
   .top {
-    height: 80px;
-    width: 80px;
-    font-size: 105px;
+    height: 6vw;
+    width: 6vw;
+    font-size: 8vw;
   }
 
   .logoContainer img {
@@ -549,5 +549,16 @@
 
   .footer h3 {
     font-size: 1.9vw;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+  @keyframes boatMove {
+    from {
+      transform: translate(0px, -10px);
+    }
+    to {
+      transform: translate(10px, 40px);
+    }
   }
 }
