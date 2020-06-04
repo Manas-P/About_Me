@@ -914,3 +914,107 @@
     padding: 4vw 0px 4vw 0px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  header {
+    height: 8vh;
+  }
+
+  .navLink {
+    font-size: 3.3vw;
+  }
+
+  .heroContainer {
+    height: 92vh;
+  }
+
+  .heroContainer .sea1 {
+    height: 13vw;
+    background-size: 100vw 13vw;
+  }
+
+  .heroContainer .sea2 {
+    height: 16vw;
+    background-size: 100vw 16vw;
+  }
+
+  .heroContainer .sea3 {
+    height: 18vw;
+    background-size: 100vw 18vw;
+  }
+
+  .heroContainer .sea4 {
+    height: 19vw;
+    background-size: 100vw 19vw;
+  }
+
+  .heroContainer .boat img {
+    width: 64.908vw;
+    height: 45vw;
+  }
+
+  .heroContainer .cloud1 img {
+    margin-top: 65vw;
+  }
+
+  .heroContainer .cloud2 img {
+    top: 20vw;
+  }
+
+  .heroContainer .sun img {
+    height: 40vw;
+    margin: 1vw 0px 0px 2vw;
+  }
+
+  .fish img:nth-child(1) {
+    margin-top: 10vw;
+  }
+
+  .fish img:nth-child(2) {
+    margin-top: 65vw;
+  }
+
+  .fish img:nth-child(3) {
+    margin-top: 90vw;
+  }
+
+  .fish img:nth-child(4) {
+    margin-top: 60vw;
+  }
+
+  .fish img:nth-child(5) {
+    margin-top: 45vw;
+  }
+
+  .fish img:nth-child(6) {
+    margin-top: 100vw;
+  }
+
+  .container2 .content1 {
+    padding-top: 15vw;
+  }
+
+  .container2 .content2 img {
+    height: 45vw;
+  }
+
+  .container3 h1 {
+    top: 10vw;
+  }
+  .container3 .skills {
+    grid-row-gap: 10vw;
+    padding: 20vw 0px 0vw 0px;
+  }
+
+  .container3 .learning {
+    padding-top: 20vw;
+  }
+
+  .container5 .content1 {
+    padding-top: 15vw;
+  }
+
+  .container5 .content2 img {
+    height: 45vw;
+  }
+}

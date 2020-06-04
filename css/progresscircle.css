@@ -39,6 +39,13 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .circle-chart {
+    width: 19vw;
+    height: 19vw;
+  }
+}
+
 .circle-chart__circle {
   stroke: #00acc1;
   stroke-width: 2;
