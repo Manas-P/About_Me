@@ -907,3 +907,10 @@
     font-size: 2.6vw;
   }
 }
+
+@media screen and (max-width: 768px) {
+  /*iPad*/
+  .container4 .card {
+    padding: 4vw 0px 4vw 0px;
+  }
+}
