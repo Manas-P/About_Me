@@ -152,6 +152,7 @@ nav {
   height: auto;
   background-repeat: repeat-x;
   background-position: 0 0;
+  outline: none;
 }
 
 .heroContainer .sea1 {

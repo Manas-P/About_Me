@@ -562,3 +562,348 @@
     }
   }
 }
+
+@media screen and (max-width: 875px) {
+  .top {
+    height: 7.5vw;
+    width: 7.5vw;
+    font-size: 10vw;
+    bottom: 2.3vw;
+    right: 2.3vw;
+  }
+
+  .logoContainer img {
+    width: 23vw;
+  }
+
+  .navLink {
+    font-size: 3vw;
+  }
+
+  .heroContainer .sea1 {
+    height: 11vw;
+    background-size: 100vw 11vw;
+  }
+
+  .heroContainer .sea2 {
+    height: 14vw;
+    background-size: 100vw 14vw;
+  }
+
+  .heroContainer .sea3 {
+    height: 16vw;
+    background-size: 100vw 16vw;
+  }
+
+  .heroContainer .sea4 {
+    height: 17vw;
+    background-size: 100vw 17vw;
+  }
+
+  .heroContainer .boat img {
+    width: 57.696vw;
+    height: 40vw;
+  }
+
+  @keyframes boatMove {
+    from {
+      transform: translate(-10vw, -2.8vw);
+    }
+    to {
+      transform: translate(-10vw, 2.8vw);
+    }
+  }
+
+  .heroContainer .cloud1 img {
+    width: 30.6604vw;
+    height: 17vw;
+    margin-top: 43vw;
+    right: -30%;
+  }
+
+  .heroContainer .cloud2 img {
+    width: 32.2822vw;
+    height: 19vw;
+    right: -32%;
+    top: 9vw;
+  }
+
+  @keyframes cloud1 {
+    from {
+      right: -32%;
+    }
+    to {
+      right: 100%;
+    }
+  }
+
+  .heroContainer .sun img {
+    height: 33vw;
+    filter: drop-shadow(0px 0px 4.5vw #ffc300);
+  }
+
+  .container1 h1 {
+    font-size: 5vw;
+    top: 9.6vw;
+    line-height: 6.8vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .container1 .hello img {
+    height: 62vw;
+  }
+
+  .fish img:nth-child(1) {
+    height: 6.7vw;
+    margin-top: 10vw;
+    left: -9.3%;
+  }
+
+  .fish img:nth-child(2) {
+    height: 6.7vw;
+    margin-top: 45vw;
+    left: -9.3%;
+  }
+
+  .fish img:nth-child(3) {
+    height: 6.7vw;
+    margin-top: 60vw;
+    right: -9.3%;
+  }
+
+  .fish img:nth-child(4) {
+    height: 6.7vw;
+    margin-top: 40vw;
+    right: -9.3%;
+  }
+
+  .fish img:nth-child(5) {
+    height: 6.7vw;
+    margin-top: 25vw;
+    right: -9.3%;
+  }
+
+  .fish img:nth-child(6) {
+    height: 6.7vw;
+    margin-top: 75vw;
+    left: -9.3%;
+  }
+
+  .container2 .contents {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container2 .content1 {
+    padding-top: 12vw;
+  }
+
+  .container2 .content1 h1 {
+    font-size: 9vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .container2 .content1 p {
+    line-height: 5vw;
+    font-size: 3.5vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+    padding: 1.5vw 5vw 0px 5vw;
+  }
+
+  .container2 .content2 img {
+    height: 42vw;
+  }
+
+  .container2 .content2 h1 {
+    font-size: 5.5vw;
+    left: 42%;
+    top: 78%;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .container3 h1 {
+    font-size: 8vw;
+    top: 7vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .container3 .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 6vw;
+  }
+
+  .container3 .circlechart:hover {
+    filter: drop-shadow(0px 0px 2vw rgb(255, 255, 255));
+  }
+
+  .container4 {
+    height: 160vh;
+  }
+
+  .container4 h1 {
+    font-size: 8vw;
+    top: 10vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .container4 .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .container4 .faceContent img {
+    height: 23vw;
+    width: auto;
+  }
+
+  .cards .card .face {
+    width: 39.0625vw;
+    height: 25vw;
+  }
+
+  .cards .card .face.face1 {
+    width: 39.0625vw;
+    height: 25vw;
+    border-top-right-radius: 2.3vw;
+    border-top-left-radius: 2.3vw;
+    border-bottom-right-radius: 2.3vw;
+    border-bottom-left-radius: 2.3vw;
+    transform: translateY(12.5vw);
+  }
+
+  .cards .card .face.face2 {
+    transform: translateY(-12.5vw);
+    border-top-right-radius: 2.3vw;
+    border-top-left-radius: 2.3vw;
+    border-bottom-right-radius: 2.3vw;
+    border-bottom-left-radius: 2.3vw;
+  }
+
+  .cards .card:hover .face.face2 {
+    transform: translateY(0);
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .cards .card .face.face2 .faceContent p {
+    font-size: 2.7vw;
+    line-height: 3.5vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .cards .card .face.face2 .faceContent a {
+    margin: 1.8vw 0 0;
+    font-size: 2.4vw;
+    border-radius: 2vw;
+    padding: 0.5vw 1.8vw;
+    border: 0.1vw solid #000;
+  }
+
+  .container5 .contents {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container5 .content1 {
+    padding-top: 10vw;
+  }
+
+  .container5 .content1 h1 {
+    font-size: 7vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .container5 .content1 p {
+    line-height: 5vw;
+    font-size: 3.3vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+    padding: 1.5vw 5vw 0px 5vw;
+  }
+
+  .container5 .content2 img {
+    height: 42vw;
+  }
+
+  .container5 .content2 h1 {
+    font-size: 5.5vw;
+    left: 40.5%;
+    top: 78%;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .container5 .content1 a {
+    padding: 0.8vw 1.5vw;
+    color: #fff;
+    border-radius: 3vw;
+    font-size: 2.5vw;
+    margin: 3vw 0 0;
+  }
+
+  .container6 h1 {
+    font-size: 5.5vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .container6 .videos {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 8vw;
+  }
+
+  .container6 .videos iframe {
+    width: 42.6398vw;
+    height: 24vw;
+  }
+
+  .container7 h1 {
+    font-size: 5.6vw;
+    padding-top: 6vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .score h2 {
+    font-size: 3.5vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .score p {
+    padding: 1vw;
+    font-size: 3vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .intro h1 {
+    font-size: 3vw;
+    padding: 0 15vw 0 15vw;
+    line-height: 4vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .intro button,
+  .match button,
+  .result button {
+    width: 12vw;
+    height: 4.5vw;
+    font-size: 2.5vw;
+    border-radius: 3vw;
+  }
+
+  .winner {
+    font-size: 4vw;
+    text-shadow: 0.108vw 0.108vw 0.8vw #000;
+  }
+
+  .hands img {
+    height: 12vw;
+  }
+
+  .container8 .plants img {
+    height: 20vw;
+  }
+
+  .footer h3 {
+    font-size: 2.6vw;
+  }
+}
