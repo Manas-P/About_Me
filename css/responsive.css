@@ -1242,6 +1242,182 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .top {
+    height: 10vw;
+    width: 10vw;
+    font-size: 13vw;
+  }
+
+  .navLink {
+    font-size: 5.5vw;
+  }
+
+  .container1 h1 {
+    font-size: 6.5vw;
+    top: 12vw;
+    line-height: 9vw;
+  }
+
+  .container1 .hello img {
+    height: 85vw;
+  }
+
+  .fish img:nth-child(1) {
+    height: 7vw;
+    margin-top: 10vw;
+    left: -9.6%;
+  }
+
+  .fish img:nth-child(2) {
+    height: 7vw;
+    margin-top: 85vw;
+    left: -9.6%;
+  }
+
+  .fish img:nth-child(3) {
+    height: 7vw;
+    margin-top: 110vw;
+    right: -9.6%;
+  }
+
+  .fish img:nth-child(4) {
+    height: 7vw;
+    margin-top: 90vw;
+    right: -9.6%;
+  }
+
+  .fish img:nth-child(5) {
+    height: 7vw;
+    margin-top: 75vw;
+    right: -9.6%;
+  }
+
+  .fish img:nth-child(6) {
+    height: 7vw;
+    margin-top: 130vw;
+    left: -9.6%;
+  }
+
+  .container2 .content1 h1 {
+    font-size: 12vw;
+  }
+
+  .container2 .content1 p {
+    line-height: 7vw;
+    font-size: 5vw;
+  }
+
+  .container2 .content2 img {
+    height: 60vw;
+  }
+
+  .container2 .content2 h1 {
+    font-size: 7vw;
+  }
+
+  .container3 {
+    height: 120vh;
+  }
+
+  .container3 h1 {
+    font-size: 9.5vw;
+  }
+
+  .container3 .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 8vw;
+  }
+
+  .container3 .learning {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 8vw;
+  }
+
+  .container4 {
+    height: 170vh;
+  }
+
+  .container4 .faceContent img {
+    height: 27vw;
+    width: auto;
+  }
+
+  .cards .card .face {
+    width: 62.5vw;
+    height: 40vw;
+  }
+
+  .cards .card .face.face1 {
+    width: 62.5vw;
+    height: 40vw;
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+    transform: translateY(20vw);
+  }
+
+  .cards .card .face.face2 {
+    transform: translateY(-20vw);
+    border-top-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+  }
+
+  .cards .card .face.face2 .faceContent p {
+    font-size: 4vw;
+    line-height: 5.5vw;
+  }
+
+  .cards .card .face.face2 .faceContent a {
+    margin: 3vw 0 0;
+    font-size: 3vw;
+    border-radius: 5vw;
+    padding: 1.3vw 3.5vw;
+    border: 0.2vw solid #000;
+  }
+
+  .container5 .content1 h1 {
+    font-size: 10vw;
+  }
+
+  .container5 .content1 p {
+    line-height: 7vw;
+    font-size: 5vw;
+  }
+
+  .container5 .content1 a {
+    padding: 1.2vw 3vw;
+    border-radius: 5vw;
+    font-size: 4vw;
+    margin: 6vw 0 4vw 0;
+  }
+
+  .container5 .content2 img {
+    height: 60vw;
+  }
+
+  .container5 .content2 h1 {
+    font-size: 7vw;
+  }
+
+  .container6 {
+    height: 190vh;
+  }
+
+  .container6 .content {
+    height: 190vh;
+  }
+
+  .container6 .videos {
+    row-gap: 10vw;
+  }
+}
+
 /* Responsive Navigation Button Animation */
 .nav-active {
   transform: translateY(0%);
