@@ -182,3 +182,38 @@ const play = () => {
   var game = new Audio("./mp3/game.mp3");
   game.play();
 };
+
+/*
+============================================================
+  JavaScript for Navigation Bar for Mobile Responsive Start
+============================================================
+*/
+// Declaring Variables
+const nav_btn = document.querySelector(".nav_btn"); // Responsive Navigation Button
+const nav = document.querySelector(".navLinks"); // Drawer
+const navLinks = document.querySelectorAll(".navLinks li"); // Drawer Menu List
+const logoContainer = document.querySelector(".logoContainer");
+
+//For loop to select each list since we can't pass muliple values on EventListener
+for (eachLi of navLinks) {
+  eachLi.addEventListener("click", () => {
+    nav.classList.toggle("nav-active");
+    nav_btn.classList.toggle(`toggle`);
+    logoContainer.classList.toggle("fixed");
+  });
+}
+
+// Navigation Button Click Event
+nav_btn.addEventListener("click", () => {
+  nav.classList.toggle("nav-active"); //Calling Drawer
+  nav_btn.classList.toggle(`toggle`); //nav Button Animation
+  logoContainer.classList.toggle("fixed");
+  //To Prevent Scroll for Drawer on Mobile Responsive
+  nav.addEventListener(
+    "touchmove",
+    (nav) => {
+      nav.preventDefault();
+    },
+    false
+  );
+});

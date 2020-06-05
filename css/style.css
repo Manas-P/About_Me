@@ -28,6 +28,7 @@ body {
   opacity: 1;
   transition: all 0.5s ease;
   overflow: hidden;
+  z-index: 100;
 }
 
 .preloader h1 {
@@ -107,6 +108,7 @@ header {
 .logoContainer img {
   width: 13.020833333333334vw;
   margin-left: 3.90625vw;
+  z-index: 50;
 }
 
 .logoContainer,
@@ -133,6 +135,23 @@ nav {
   color: #000;
   font-weight: bold;
   font-size: 1.8229166666666667vw;
+}
+
+.nav_btn {
+  display: none;
+  float: right;
+  right: 0%;
+  cursor: pointer;
+  margin-right: 20px;
+  z-index: 10;
+}
+
+.nav_btn div {
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  margin: 7px;
+  transition: all 0.5s ease;
 }
 
 .heroContainer {
