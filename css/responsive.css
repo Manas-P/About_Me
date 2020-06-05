@@ -1046,10 +1046,10 @@
   }
 
   .nav_btn div {
-    width: 50px;
-    height: 5px;
+    width: 10vw;
+    height: 1.1vw;
     border-radius: 100%;
-    margin: 10px;
+    margin: 1.5vw;
   }
 
   .navLink {
@@ -1249,7 +1249,7 @@
 }
 
 .toggle .line1 {
-  transform: rotate(45deg) translate(0px, 21px);
+  transform: rotate(45deg) translate(0px, 3.6vw);
 }
 
 .toggle .line2 {
@@ -1257,7 +1257,7 @@
 }
 
 .toggle .line3 {
-  transform: rotate(-45deg) translate(0px, -21px);
+  transform: rotate(-45deg) translate(0px, -3.6vw);
 }
 
 .toggle {
