@@ -7,7 +7,6 @@
 html {
   scroll-behavior: smooth;
   font-family: "Varela Round", sans-serif;
-  overflow-x: hidden;
 }
 
 body {
@@ -172,6 +171,7 @@ nav {
   background-repeat: repeat-x;
   background-position: 0 0;
   outline: none;
+  overflow-x: hidden;
 }
 
 .heroContainer .sea1 {
@@ -211,11 +211,13 @@ nav {
   left: 0;
   bottom: -1vh;
   display: none;
+  overflow-x: hidden;
 }
 
 .heroContainer .fillSea img {
   width: 100%;
   height: 10vh;
+  overflow-x: hidden;
 }
 
 @keyframes seaMove {
@@ -249,6 +251,7 @@ nav {
 }
 
 .heroContainer .cloud1 img {
+  overflow-x: hidden;
   position: absolute;
   width: 15.78125vw;
   height: 8.75vw;
@@ -259,6 +262,7 @@ nav {
 }
 
 .heroContainer .cloud2 img {
+  overflow-x: hidden;
   position: absolute;
   width: 19.114583333333332vw;
   height: 11.25vw;
@@ -331,6 +335,7 @@ nav {
 }
 
 .fish img:nth-child(1) {
+  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 5.208333333333333vw;
@@ -340,6 +345,7 @@ nav {
 }
 
 .fish img:nth-child(2) {
+  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 15.625vw;
@@ -349,6 +355,7 @@ nav {
 }
 
 .fish img:nth-child(3) {
+  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 26.041666666666668vw;
@@ -358,6 +365,7 @@ nav {
 }
 
 .fish img:nth-child(4) {
+  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 13.020833333333334vw;
@@ -367,6 +375,7 @@ nav {
 }
 
 .fish img:nth-child(5) {
+  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 2.6041666666666665vw;
@@ -376,6 +385,7 @@ nav {
 }
 
 .fish img:nth-child(6) {
+  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 31.25vw;
