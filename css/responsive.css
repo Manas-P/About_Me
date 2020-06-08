@@ -1524,7 +1524,7 @@
 
 @media screen and (max-width: 450px) {
   .container1 {
-    height: 110vh;
+    height: 150vh;
   }
 
   .fish img:nth-child(1) {
