@@ -10,6 +10,10 @@ html {
   overflow-x: hidden;
 }
 
+.main {
+  overflow-x: hidden;
+}
+
 body {
   background: #0099ff;
   overflow-x: hidden;
@@ -155,6 +159,7 @@ nav {
 }
 
 .heroContainer {
+  overflow-x: hidden;
   background: #d6f5ff;
   height: 87vh;
   width: 100vw;
@@ -252,7 +257,6 @@ nav {
 }
 
 .heroContainer .cloud1 img {
-  overflow-x: hidden;
   position: absolute;
   width: 15.78125vw;
   height: 8.75vw;
@@ -263,7 +267,6 @@ nav {
 }
 
 .heroContainer .cloud2 img {
-  overflow-x: hidden;
   position: absolute;
   width: 19.114583333333332vw;
   height: 11.25vw;
@@ -297,6 +300,7 @@ nav {
 }*/
 
 .container1 {
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -336,7 +340,6 @@ nav {
 }
 
 .fish img:nth-child(1) {
-  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 5.208333333333333vw;
@@ -346,7 +349,6 @@ nav {
 }
 
 .fish img:nth-child(2) {
-  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 15.625vw;
@@ -356,7 +358,6 @@ nav {
 }
 
 .fish img:nth-child(3) {
-  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 26.041666666666668vw;
@@ -366,7 +367,6 @@ nav {
 }
 
 .fish img:nth-child(4) {
-  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 13.020833333333334vw;
@@ -376,7 +376,6 @@ nav {
 }
 
 .fish img:nth-child(5) {
-  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 2.6041666666666665vw;
@@ -386,7 +385,6 @@ nav {
 }
 
 .fish img:nth-child(6) {
-  overflow-x: hidden;
   position: absolute;
   height: 3.6458333333333335vw;
   margin-top: 31.25vw;
@@ -459,6 +457,7 @@ nav {
 }
 
 .container2 {
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
   background: #0089e4;
@@ -529,6 +528,7 @@ nav {
 }*/
 
 .container3 {
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
 }
@@ -575,6 +575,7 @@ nav {
 }
 
 .container4 {
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
   background: #0089e4;
@@ -693,6 +694,7 @@ nav {
 }
 
 .container5 {
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
   background: #0099ff;
@@ -779,6 +781,7 @@ nav {
 }
 
 .container6 {
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
   background: #0089e4;
@@ -823,6 +826,7 @@ nav {
 }
 
 .container7 {
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -1029,6 +1033,7 @@ div.fadeIn {
 }
 
 .container8 {
+  overflow-x: hidden;
   height: 50vh;
   width: 100%;
   position: relative;
@@ -1051,6 +1056,7 @@ div.fadeIn {
 }
 
 .footer {
+  overflow-x: hidden;
   height: 5vh;
   width: 100%;
   background: rgb(58, 23, 0);
