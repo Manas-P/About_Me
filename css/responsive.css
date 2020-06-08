@@ -1477,7 +1477,7 @@
 
   .fish img:nth-child(2) {
     height: 7vw;
-    margin-top: 95vw;
+    margin-top: 40vw;
     left: -9.6%;
   }
 
@@ -1495,7 +1495,7 @@
 
   .fish img:nth-child(5) {
     height: 7vw;
-    margin-top: 95vw;
+    margin-top: 65vw;
     right: -9.6%;
   }
 
@@ -1513,6 +1513,60 @@
 
   .bubble img:nth-child(2) {
     margin-top: 140%;
+    height: 25vw;
+  }
+
+  .bubble img:nth-child(3) {
+    margin-top: 50%;
+    height: 11vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .fish img:nth-child(1) {
+    height: 7vw;
+    margin-top: 20vw;
+    left: -9.6%;
+  }
+
+  .fish img:nth-child(2) {
+    height: 7vw;
+    margin-top: 40vw;
+    left: -9.6%;
+  }
+
+  .fish img:nth-child(3) {
+    height: 7vw;
+    margin-top: 80vw;
+    right: -9.6%;
+  }
+
+  .fish img:nth-child(4) {
+    height: 7vw;
+    margin-top: 70vw;
+    right: -9.6%;
+  }
+
+  .fish img:nth-child(5) {
+    height: 7vw;
+    margin-top: 100vw;
+    right: -9.6%;
+  }
+
+  .fish img:nth-child(6) {
+    height: 7vw;
+    margin-top: 120vw;
+    left: -9.6%;
+  }
+
+  .bubble img:nth-child(1) {
+    margin-top: 20vw;
+    left: 80%;
+    height: 15vw;
+  }
+
+  .bubble img:nth-child(2) {
+    margin-top: 115%;
     height: 25vw;
   }
 
