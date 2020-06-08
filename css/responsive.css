@@ -1576,7 +1576,11 @@
   }
 
   .container3 {
-    height: 130vh;
+    height: 125vh;
+  }
+
+  .container8 .fish img:nth-child(5) {
+    display: none;
   }
 }
 
