@@ -1430,6 +1430,68 @@
   .heroContainer .fillSea {
     display: block;
   }
+
+  .heroContainer .cloud1 img {
+    width: 36.071vw;
+    height: 20vw;
+    right: -32%;
+    margin-top: 80vw;
+  }
+
+  .heroContainer .cloud2 img {
+    width: 39.0784vw;
+    height: 23vw;
+    right: -39%;
+    top: 20vw;
+  }
+
+  @keyframes cloud1 {
+    from {
+      right: -36%;
+    }
+    to {
+      right: 100%;
+    }
+  }
+
+  .heroContainer .sun img {
+    height: 47vw;
+    filter: drop-shadow(0px 0px 10vw #ffc300);
+  }
+
+  .container1 h1 {
+    font-size: 7vw;
+    top: 15vw;
+    text-shadow: 0.11vw 0.11vw 1.2vw #000;
+  }
+
+  .container1 .hello img {
+    height: 100vw;
+  }
+
+  .fish img:nth-child(1) {
+    margin-top: 10vw;
+  }
+
+  .fish img:nth-child(2) {
+    margin-top: 105vw;
+  }
+
+  .fish img:nth-child(3) {
+    margin-top: 130vw;
+  }
+
+  .fish img:nth-child(4) {
+    margin-top: 30vw;
+  }
+
+  .fish img:nth-child(5) {
+    margin-top: 905vw;
+  }
+
+  .fish img:nth-child(6) {
+    margin-top: 150vw;
+  }
 }
 
 /* Responsive Navigation Button Animation */
