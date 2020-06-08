@@ -21,7 +21,7 @@ body {
 
 .preloader {
   position: fixed;
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   z-index: 100;
   background: #0099ff;
@@ -52,7 +52,7 @@ body {
 
 .preloader img {
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   width: 30.208333333333332vw;
   height: 21.71875vw;
   transform: translateX(-100%);
