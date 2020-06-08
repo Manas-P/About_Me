@@ -1522,13 +1522,9 @@
   }
 }
 
-@media screen and (max-width: 455px) {
-  .container1 {
-    height: 150vh;
-  }
-
+@media screen and (max-width: 450px) {
   .fish img:nth-child(1) {
-    height: 15vw;
+    height: 7vw;
     margin-top: 20vw;
     left: -9.6%;
   }
