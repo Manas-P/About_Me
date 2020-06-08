@@ -16,7 +16,8 @@ html {
 
 body {
   background: #0099ff;
-  overflow-x: hidden;
+  overflow: hidden;
+  width: 100vw;
 }
 
 ::-webkit-scrollbar {
@@ -26,7 +27,7 @@ body {
 .preloader {
   position: fixed;
   height: 110vh;
-  width: 100%;
+  width: 100vw;
   z-index: 100;
   background: #0099ff;
   opacity: 1;
@@ -100,13 +101,14 @@ header {
   /*position: fixed;*/
   position: relative;
   display: flex;
-  width: 100%;
+  width: 100vw;
   top: 0;
   height: 13vh;
   align-items: center;
   background: #d6f5ff;
   box-shadow: 0px 0.20833333333333334vw 2.6041666666666665vw rgb(116, 204, 255);
   z-index: 10;
+  overflow: hidden;
 }
 
 .logoContainer img {
@@ -159,7 +161,7 @@ nav {
 }
 
 .heroContainer {
-  overflow-x: hidden;
+  overflow: hidden;
   background: #d6f5ff;
   height: 87vh;
   width: 100vw;
@@ -337,6 +339,10 @@ nav {
   to {
     transform: translate(-50%, -45%);
   }
+}
+
+.fish {
+  overflow: hidden;
 }
 
 .fish img:nth-child(1) {
