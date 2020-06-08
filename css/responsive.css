@@ -1418,6 +1418,20 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .heroContainer .sea {
+    bottom: 10%;
+  }
+
+  .heroContainer .boat img {
+    bottom: 13%;
+  }
+
+  .heroContainer .fillSea {
+    display: block;
+  }
+}
+
 /* Responsive Navigation Button Animation */
 .nav-active {
   transform: translateY(0%);

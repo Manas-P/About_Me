@@ -198,8 +198,10 @@ const logoContainer = document.querySelector(".logoContainer");
 for (eachLi of navLinks) {
   eachLi.addEventListener("click", () => {
     nav.classList.toggle("nav-active");
+    nav.classList.remove("nav-active");
     nav_btn.classList.toggle(`toggle`);
     logoContainer.classList.toggle("fixed");
+    logoContainer.classList.remove("fixed");
   });
 }
 
@@ -208,6 +210,7 @@ nav_btn.addEventListener("click", () => {
   nav.classList.toggle("nav-active"); //Calling Drawer
   nav_btn.classList.toggle(`toggle`); //nav Button Animation
   logoContainer.classList.toggle("fixed");
+
   //To Prevent Scroll for Drawer on Mobile Responsive
   nav.addEventListener(
     "touchmove",
