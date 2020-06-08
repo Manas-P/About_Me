@@ -1574,6 +1574,10 @@
     margin-top: 50%;
     height: 11vw;
   }
+
+  .container3 {
+    height: 130vh;
+  }
 }
 
 /* Responsive Navigation Button Animation */

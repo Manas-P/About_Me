@@ -11,7 +11,7 @@ function topFunction() {
 }
 //Hide and Show Top Button
 $(window).scroll(function () {
-  if ($(window).scrollTop() > 600) {
+  if ($(window).scrollTop() > 500) {
     $("#top").fadeIn();
   } else {
     $("#top").fadeOut();
