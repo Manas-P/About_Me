@@ -1466,31 +1466,59 @@
   }
 
   .container1 .hello img {
-    height: 100vw;
+    height: 95vw;
   }
 
   .fish img:nth-child(1) {
-    margin-top: 10vw;
+    height: 7vw;
+    margin-top: 20vw;
+    left: -9.6%;
   }
 
   .fish img:nth-child(2) {
-    margin-top: 105vw;
+    height: 7vw;
+    margin-top: 95vw;
+    left: -9.6%;
   }
 
   .fish img:nth-child(3) {
-    margin-top: 130vw;
+    height: 7vw;
+    margin-top: 140vw;
+    right: -9.6%;
   }
 
   .fish img:nth-child(4) {
-    margin-top: 30vw;
+    height: 7vw;
+    margin-top: 110vw;
+    right: -9.6%;
   }
 
   .fish img:nth-child(5) {
-    margin-top: 905vw;
+    height: 7vw;
+    margin-top: 95vw;
+    right: -9.6%;
   }
 
   .fish img:nth-child(6) {
-    margin-top: 150vw;
+    height: 7vw;
+    margin-top: 160vw;
+    left: -9.6%;
+  }
+
+  .bubble img:nth-child(1) {
+    margin-top: 20vw;
+    left: 80%;
+    height: 15vw;
+  }
+
+  .bubble img:nth-child(2) {
+    margin-top: 140%;
+    height: 25vw;
+  }
+
+  .bubble img:nth-child(3) {
+    margin-top: 50%;
+    height: 11vw;
   }
 }
 
