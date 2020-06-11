@@ -1027,8 +1027,9 @@
   }
 
   .navLinks {
+    position: fixed;
     right: 0%;
-    height: 100vh;
+    height: 110vh;
     top: 0%;
     background-color: #d6f5ff;
     display: flex;
@@ -1587,7 +1588,6 @@
 /* Responsive Navigation Button Animation */
 .nav-active {
   transform: translateY(0%);
-  position: fixed;
 }
 
 .toggle .line1 {
