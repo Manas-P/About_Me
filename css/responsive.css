@@ -1029,7 +1029,7 @@
   .navLinks {
     position: fixed;
     right: 0%;
-    height: 110vh;
+    height: 100vh;
     top: 0%;
     background-color: #d6f5ff;
     display: flex;
