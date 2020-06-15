@@ -1075,4 +1075,5 @@ div.fadeIn {
 .footer h3 {
   font-size: 1.3020833333333333vw;
   color: #fff;
+  pointer-events: none;
 }
